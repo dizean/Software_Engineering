@@ -1,0 +1,146 @@
+.prep {
+    width: 60%;
+    margin: 10px auto;
+    overflow: hidden;
+  }
+  .prep form {
+    display: flex;
+    flex-direction: column;
+  }
+  .prep img{
+    width: 100px;
+    height: 100px;
+  }
+  .prep label {
+    margin: 5px;
+    display: block;
+    font-size: 20px;
+    color: #f5f3f3;
+  }
+  .prep textarea{
+    margin: 10px 0;
+    height: 100px; 
+    width: 100%;
+    border: none;
+    resize: none;
+    font-size: 15px;
+}
+.prep .search{
+  width: 100%;
+  border-radius: 0;
+  margin: 0;
+  border: none;
+}
+.prep-table-container {
+  height: 200px;
+  overflow-y: auto;
+}
+.prep-table-container::-webkit-scrollbar {
+  display: none;
+}
+.prep table {
+  width: 100%;
+  border-collapse: collapse;
+  padding: 0;
+  margin: 10px 0;
+}
+.prep th {
+  background-color: #000000;
+  color: #fff;
+  padding: 12px;
+}
+.prep tr:nth-child(even) {
+  background-color: #7E0202;
+}
+.prep td {
+  padding: 10px;
+  color: #ffffff;
+}
+.prep table button {
+  width: 100%;
+  cursor: pointer;
+  background-color: #7E0202;
+  color: #fff;
+  border: none;
+}
+
+.prep table button:hover {
+  background-color: #550707;
+}
+
+  .prep input {
+    margin: 10px 0;
+    font-size: 15px;
+    height: 50px;
+    width: 100%;
+    border: none;
+  }
+  .section-buttons {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .section-buttons h2 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    color: #4caf50;
+  }
+  
+  .section-buttons h2.active {
+    border-bottom: 2px solid #4caf50;
+  }
+  .prep button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #7E0202;
+    color: white;
+    cursor: pointer;
+    border: none;
+    margin: 20px 0;
+  }
+  
+  .prep button:hover {
+    background-color: #550707;
+  }
+  .prep h1 {
+    font-size: 30px;
+    padding: 0;
+    color: #f5f3f3;
+  }
+  
+  .prep h2 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    color: #4caf50;
+  }
+  
+  .prep label[for^="img"],
+  .prep label[for^="dur"],
+  .prep label[for^="aft"] {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  
+   .prep .section-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.prep .tab {
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    color: #e8e6e6;
+}
+
+.prep .tab.active {
+    background-color: #000000;
+    color: #fff;
+}

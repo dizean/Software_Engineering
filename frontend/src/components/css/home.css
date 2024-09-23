@@ -1,0 +1,101 @@
+.upperpart {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 90vh;
+}
+.prepared{
+    width: 70%;
+    margin: 0 auto;
+    height: 184px;           
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.prepared h2{
+    width: auto;
+    color: white;
+    height: auto;
+    font-size: 50px;
+    margin: 0;
+    font-weight: lighter;
+    letter-spacing: 8px;
+    text-align: center;
+}
+.prepared .logo{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+.prepared .logo img{
+    width: 150px;
+    object-fit: contain;
+    -webkit-animation: rotate-center 10s linear infinite both;
+	        animation: rotate-center 10s linear infinite both;
+}
+@-webkit-keyframes rotate-center {
+    0% {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+  }
+  @keyframes rotate-center {
+    0% {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+  }
+  
+.slogan{
+    width: 50%;
+    margin: 0 auto;      
+    display: flex;
+    justify-content: center;
+}
+.slogan p{
+    margin: 20px;
+    color: white;
+}
+.upperpart button{
+    border: 0;
+    height: 6vh;
+    align-self: center;
+    width: 15%;
+    border-radius: 20px;
+    margin: 20px;
+    background-color: white;
+}
+.upperpart button a{
+    text-decoration: none;
+    color: red;
+}
+.upperpart button:hover{
+  background-color: #7E0202;
+  color: white;
+}
+.upperpart button a:hover{
+    color: white;
+}
+  @media screen and (max-width: 768px){
+    .upperpart{
+      height: 110vh;
+    }
+    .prepared{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+    .prepared .logo{
+      margin: 30px 0;
+    }
+  }

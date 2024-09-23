@@ -1,0 +1,98 @@
+.addlocal {
+    width: 60%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.addlocal form {
+    display: flex;
+    flex-direction: column;
+}
+
+.addlocal label {
+    margin: 5px 0;
+    padding: 0;
+    width: 100%;
+    display: block;
+    font-size: 15px;
+    color: #f5f3f3;
+}
+
+.addlocal input {
+    margin: 10px 0;
+  height: 70px; 
+  width: 100%;
+  border: none;
+}
+.addlocal textarea{
+    margin: 10px 0;
+    height: 100px; 
+    width: 100%;
+    font-size: 15px;
+    vertical-align:middle;
+    border: none;
+    resize: none;
+}
+.addlocal .search{
+    width: 100%;
+    height: 50px;
+    border-radius: 0;
+    margin: 0;
+    border: none;
+  }
+  .addlocal table {
+    width: 100%;
+    border-collapse: collapse;
+    padding: 0;
+    margin: 10px 0;
+  }
+  .addlocal th {
+    background-color: #000000;
+    color: #fff;
+    padding: 12px;
+  }
+  .addlocal tr:nth-child(even) {
+    background-color: #7E0202;
+  }
+  .addlocal td {
+    padding: 10px;
+    color: #ffffff;
+  }
+  .addlocal table button {
+    width: 100%;
+    cursor: pointer;
+    background-color: #7E0202;
+    color: #fff;
+    border: none;
+  }
+  
+  .addlocal table button:hover {
+    background-color: #550707;
+  }
+.addlocal input[type="file"] {
+    border: none;
+    height: 30px;
+}
+.addlocal input[type="date"] {
+    border: none;
+    height: 30px;
+}
+.addlocal button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #7E0202;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.addlocal button:hover {
+    background-color: #550707;
+}
+
+.addlocal h1 {
+    font-size: 30px;
+    padding: 0;
+    text-align: left;
+    color: #f5f3f3;
+}

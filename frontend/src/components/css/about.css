@@ -1,0 +1,318 @@
+.about{
+    width: 100%;
+    margin: 0 auto;
+    background: none;
+    color: white;
+}
+.aboutintro{
+    width: 100%;
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    background-color: rgb(20, 19, 19);
+}
+.intoimg{
+    width: 50%;
+    margin: 0;
+    text-align: center;
+}
+.intoimg img{
+    width: 300px;
+    height: 300px;
+}
+.intods{
+    width: 50%;
+    margin: 0;
+}
+.about h1{
+    margin: 20px 0;
+    padding: 10px;
+    text-align: center;
+    font-size: 50px;
+}
+.aboutintro p{
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 18px;
+    line-height: 30px;
+}
+.objectives{
+    width: 80%;
+    height: 200vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+.objectives .objective{
+    width: 100%;
+    display: flex;
+    margin: 20px 0;
+}
+.objimg{
+    width: 30%;
+    height: 300px;
+}
+.objimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.objinfo{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 20px;
+    
+}
+.objinfo h3,p{
+    padding: 20px 0;
+    margin: 0;
+}
+.objinfo h3{
+    font-size: 30px;
+}
+.objinfo p{
+    color: #fff8f8;
+    font-size: 15px;
+    line-height: 30px;
+}
+.team{
+    width: 100%;
+    height: 110vh;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(20, 19, 19);
+}
+.team h1{
+    margin: 20px 0;
+    text-align: center;
+}
+.teamcont{
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+}
+.team .member{
+    width: 50%;
+    text-align: center;
+}
+.memberimg{
+    width: 100%;
+    height: 200px;
+    margin: 20px 0;
+}
+.memberimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.memberinfo{
+    margin: 10px 0;
+    font-size: 20px;
+}
+.contactus {
+    padding: 10px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contactus button {
+    overflow: visible;
+}
+
+.contactus button,
+.contactus select {
+    text-transform: none;
+}
+
+.contactus button,
+.contactus input,
+.contactus select,
+.contactus textarea {
+    color: #fff;
+    font: inherit;
+    margin: 0;
+}
+
+.contactus input {
+    line-height: normal;
+}
+
+.contactus textarea {
+    overflow: auto;
+}
+
+.contactus #container {
+    border: solid 3px #7E0202;
+    margin: 0 auto;
+    max-width: 650px;
+    max-height: 650px;
+    position: relative;
+    width: 100%;
+}
+
+.contactus form {
+    padding: 45px;
+}
+
+.contactus h2 {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 7px;
+    text-align: center;
+}
+
+.contactus .email {
+    float: right;
+    width: 45%;
+}
+
+.contactus input[type='text'],
+.contactus [type='email'],
+.contactus select,
+.contactus textarea {
+    background: none;
+    border: none;
+    border-bottom: solid 2px #7E0202;
+    color: #ffffff;
+    font-size: 1.000em;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin: 0em 0 1.875em 0;
+    padding: 0 0 0.875em 0;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.contactus input[type='text']:focus,
+.contactus [type='email']:focus,
+.contactus textarea:focus {
+    outline: none;
+    padding: 0 0 0.875em 0;
+}
+
+.contactus .message {
+    float: none;
+}
+
+.contactus .name {
+    float: left;
+    width: 45%;
+}
+
+.contactus select {
+    background: url('http://web.missouri.edu/~blly4b/ISLT7360/FinalProject/FINAL/icon-ios7-arrow-down-32.png') no-repeat right;
+    -webkit-appearance: none;
+}
+
+.contactus select::-ms-expand {
+    display: none;
+}
+
+.contactus .subject {
+    width: 100%;
+}
+
+.contactus textarea {
+    line-height: 150%;
+    height: 150px;
+    resize: none;
+    width: 100%;
+}
+
+.contactus ::-webkit-input-placeholder {
+    color: #fff;
+}
+
+.contactus #form_button {
+    background: none;
+    border: solid 2px #7E0202;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    outline: none;
+    padding: 20px 35px;
+    text-transform: uppercase;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.contactus .submit {
+    text-align: center;
+}
+
+.contactus #form_button:hover {
+    background: #630505;
+    color: #ffffff;
+}
+@media screen and (max-width: 768px){
+    .aboutintro{
+        width: 100%;
+        height: 110vh;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 20px 0;
+    }
+    .intoimg,.intods{
+        width: 100%;
+    }
+    .objectives{
+        margin: 30px auto;
+    }
+    .objective{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .objimg,.objinfo{
+        width: 100%;
+        padding: 0;
+    }
+    .team{
+        margin: 90px auto;
+    }
+    .teamcont{
+        display: flex;
+        flex-direction: column;
+    }
+    .team .member{
+        width: 100%;
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+    }
+    .contactus .name, #form_button{
+        width: 100%;
+        float: none;
+    }
+    .contactus .email {
+        float: right;
+        width: 100%;
+    }
+}

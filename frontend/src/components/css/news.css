@@ -1,0 +1,134 @@
+.news{
+    width: 100%;
+}
+.news .title{
+    text-align: center;
+    font-size: 40px;
+    color: aliceblue;
+}
+.news .title h1{
+    margin: 0;
+    padding: 20px 0 0 0;
+}
+.news .choices{
+    margin: 0;
+    width: 100%;
+   
+}
+.news .choices nav{
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    margin: 0;
+}
+.news .choices nav a{
+    border-radius: none;
+    border: none;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+    cursor: pointer;
+}
+.news .choices a.active{
+    text-decoration: underline;
+  text-decoration-color: #7E0202;
+  text-underline-offset:  7px;
+}
+.news .choices a:hover{
+    text-decoration: underline;
+  text-decoration-color: #7E0202;
+  text-underline-offset:  7px;
+}
+.news .news-wrap{
+    width: 80%;
+    margin: 0 auto;
+}
+.news .local,.national,.international {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+        gap: 30px 20px;
+        padding: 20px 0;
+  }
+  
+  .news .card-container {
+    width: 49%;
+
+  }
+  
+  .news .card {
+    color: #fff;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+    background-color: rgb(20, 19, 19);
+    overflow: hidden;
+  }
+  
+  .news .cardimg {
+    width: 100%;
+    height: 300px;
+    position: relative;
+  }
+  .news .cardimg p{
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: large;
+  width: 40%;
+  color: white;
+  background-color: #7E0202;
+  z-index: 1;
+  margin: 0;
+  padding: 10px; 
+  }
+  .news .cardimg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .news .cardinfo {
+    padding: 10px;
+  }
+  .news .cardname,.carddescription,.cardddate,.cardlink {
+    padding: 15px 0;
+  }
+  .news .cardname {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .news .carddescription {
+    font-size: 15px;
+  }
+  .news .cardddate {
+    font-size: 10px;
+  }
+  .news .cardlink a{
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .news .cardlink .link:hover {
+    color: #7E0202;
+    text-decoration-line: none;
+  }
+  .news hr{
+    width: 40%;
+    text-align: left;
+    margin: 0;
+  }
+  .news .hidden{
+    display: none;
+}
+@media screen and (max-width: 768px){
+  .news .card-container {
+    width: 100%;
+  }
+}

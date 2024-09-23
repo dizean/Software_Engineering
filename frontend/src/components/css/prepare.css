@@ -1,0 +1,284 @@
+.prepare{
+    width: 100%;
+}
+.prepare .info-container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0 20px 0;
+    display: flex;
+}
+.prepare .dropdowns{
+    width: 30%;
+    position: sticky;
+}
+.prepare  .buttonscroll button{
+  width: 100%;
+  padding: 10px 0;
+  background-color: #f1f1f1;
+  color: #730202;
+  border: none;
+  margin: 30px 0 0 0;
+}
+.buttonscroll button:hover{
+  background-color: #7E0202;
+  color: #ffffff;
+}
+.prepare .dropbtn {
+    background-color: #7E0202; 
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    width: 100%;
+    height: 70px;
+    cursor: pointer;
+  }
+  .prepare .dropbtn:hover{
+    background-color: rgb(244, 244, 244);
+    color: red;
+  }
+  .prepare .dropdown-disaster,.dropdown-contact {
+    position: relative;
+    width: 100%;
+    background-color: #e5e8e5;
+    display: inline-block;
+  }
+  
+  .prepare .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(255, 252, 252); 
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .prepare .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .prepare .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .prepare .dropdown-disaster .dropdown-content {
+    display: none;
+  }
+  .prepare .dropdown-contact .dropdown-content {
+    display: none;
+  }
+  .prepare .dropdown-disaster.active .dropdown-content {
+    display: block;
+  }
+  .prepare .dropdown-contact.active .dropdown-content {
+    display: block;
+  }
+  .prepare .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
+  .prepare #content{
+    width: 70%;
+    color: #fff;
+    background-color: rgb(20, 19, 19);
+  }
+  .prepare #content .disimg{
+    width: 100%;
+    height: 200px;
+  }
+  #content .disimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .prepare #content h1{
+    font-size: 25;
+    margin: 0;
+    padding: 20px;
+  }
+  .prepare #content p{
+    font-size: 18px;
+    margin: 0;
+    padding: 20px;
+  }
+  .prepare #content h3{
+    font-size: 20px;
+    margin: 0;
+    padding: 20px;
+  }
+  #content nav{
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    gap: 10px;
+  }
+  #content nav a{
+    padding: 20px 2px;
+    font-size: 15px;
+    border: solid;
+    border-color: #7E0202;
+    text-align: center;
+  }
+  .prepare .tab-link {
+    color: rgb(189, 188, 188);
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .prepare .tab-link.active {
+    color: #ffffff;
+  }
+  .prepare #contents{
+    width: 70%;
+    height: 80vh; 
+    color: #fff;
+    background-color: rgb(20, 19, 19);
+  }
+  .prepare #contents h1{
+    font-size: 50px;
+    margin: 0;
+    padding-left: 10px;
+  }
+  .prepare #contents p{
+    font-size: 18px;
+    padding-left: 10px;
+    margin: 0;
+  }
+  .prepare #contents .disimg{
+    width: 100%;
+    height: 200px;
+  }
+  #contents .disimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  #content p,h3,h5,h1{
+    padding: 20px 20px;
+  }
+ .prepare .hidden{
+    display: none;
+}
+  #myInput{
+    border: none;
+  }
+  p button{
+    border: none;
+    background-color: #3e8e41;
+    margin-left: 20px;
+  }
+  .deswhole{
+    margin: 10px auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+ .dleft{
+  width: 60%;
+  padding: 0 20px;
+  font-size: 15px;
+  text-align: justify;
+  line-height: 25px;
+ }
+ .dright{
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  height: 200px;
+ }
+ .dright img{
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+ }
+.downloadbtn{
+  width: 100%;
+  height: 70px;
+  padding: 15px;
+  border: none;
+  background-color: #730202;
+  color: white;
+}
+.contacts {
+  max-width: 100%; 
+  margin: 0 auto; 
+  font-family: 'Arial', sans-serif; 
+}
+.contacts .cityimg{
+  width: 100%;
+  height: 200px;
+}
+.cityimg img{
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+.contacts h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.contacts h3 {
+  margin-bottom: 5px;
+}
+.contacts h4{
+  font-size: 15px;
+  margin: 30px 0;
+  font-weight: 400;
+  padding-left: 20px;
+}
+.cntctdiv{
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.cntctdiv h5{
+  width: 100%;
+  padding: 0;
+  color: rgb(255, 255, 255);
+  margin: 20px 0 0 0;
+  font-size: 18px;
+  font-weight: lighter;
+}
+.contacts input {
+  width: 80%; 
+  padding: 10px;
+  margin: 10px 0;
+  border: 0;
+  color: rgb(189, 188, 188);
+  background-color: rgb(37, 35, 35);
+}
+.contacts button {
+  width: 10%;
+  padding: 8px 12px;
+  margin-left: 5px;
+  cursor: pointer;
+  background-color: #7E0202;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 768px){
+  .prepare .info-container{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+  }
+  .prepare .dropdowns{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .prepare #content{
+    width: 100%;
+  }
+  .prepare #contents{
+    width: 100%;
+  }
+}

@@ -1,0 +1,95 @@
+.hotlines {
+    width: 60%;
+    margin: 10px auto;
+    overflow: hidden;
+}
+
+.hotlines form {
+  display: flex;
+  flex-direction: column;
+}
+
+.hotlines label {
+  margin: 5px;
+    display: block;
+    font-size: 20px;
+    color: #f5f3f3;
+}
+.hotlines textarea{
+  margin: 10px 0;
+  height: 100px; 
+  width: 100%;
+  border: none;
+  resize: none;
+  font-size: 15px;
+}
+.hotlines input {
+  margin: 10px 0;
+  font-size: 15px;
+  height: 50px;
+  width: 100%;
+  border: none;
+}
+
+.hotlines button {
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  margin: 20px 0;
+  border: none;
+}
+.hotlines .search{
+  width: 100%;
+  border-radius: 0;
+  margin: 0;
+  border: none;
+}
+.hotlines table {
+  width: 100%;
+  border-collapse: collapse;
+  padding: 0;
+  margin: 10px 0;
+}
+.hotlines th {
+  background-color: #181414;
+  color: #007bb5;
+  padding: 12px;
+}
+.hotlines tr:nth-child(even) {
+  background-color: #1d2d1f;
+}
+.hotlines td {
+  padding: 10px;
+  color: #ffffff;
+}
+.hotlines table button {
+  width: 100%;
+  cursor: pointer;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+}
+
+.hotlines table button:hover {
+  background-color: #007bb5;
+}
+
+.hotlines button:hover {
+  background-color: #45a049;
+}
+
+.hotlines h1 {
+  font-size: 30px;
+  padding: 0;
+  color: #f5f3f3;
+}
+
+.hotlines h2 {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  color: #4caf50;
+}
+

@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Dosis:wght@200;400&family=Lato:ital,wght@1,100&family=Noto+Sans+Glagolitic&family=Poppins:wght@100&family=Quicksand&family=Red+Rose:wght@300&family=Rubik&family=Rubik+Mono+One&family=Sono&display=swap');
+
+*{
+  font-family: 'Arimo', sans-serif;
+}
+body{
+  background-color: rgb(15, 13, 13);
+  margin: 0;
+  width: 100%;
+}
+body::-webkit-scrollbar{
+  display: none;
+}
+.close{
+  width: 100%;
+  text-align: right;
+  margin: 0;
+  font-size: 20px;
+  padding: 0 20px 0 0 ;
+
+}
+.imagediv{
+  width: 100%;
+}
+.imagediv label{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.imagediv .textimg{
+  width: 100%;
+  text-align: center;
+  margin: 20px 0;
+}
+.imagediv .imagepreview,.imageinput{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.imagediv .imageinput p{
+  font-size: 10px;
+}
+.imagediv .imagepreview{
+  width: 100%;
+}
+.imagediv input{
+  width: 20%;
+  margin: 0 auto;
+  border: 0;
+  padding: 0;
+}
